@@ -1,5 +1,9 @@
 FROM node:18.15.0
 
+LABEL org.opencontainers.image.source=https://github.com/d0whc3r/build-expo
+LABEL org.opencontainers.image.description="Expo (react-native) build image"
+LABEL org.opencontainers.image.licenses=MIT
+
 ARG DEBIAN_FRONTEND=noninteractive
 
 # Version of tools
