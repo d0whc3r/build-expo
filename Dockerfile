@@ -1,4 +1,4 @@
-FROM node:18.19.0
+FROM node:20.11.0
 
 LABEL org.opencontainers.image.source=https://github.com/d0whc3r/build-expo
 LABEL org.opencontainers.image.description="Expo (react-native) build image"
