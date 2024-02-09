@@ -23,7 +23,7 @@ RUN apt-get update \
 
 RUN npm -g i expo-doctor
 
-RUN curl -o /tmp/cmdline-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-9123335_latest.zip \
+RUN curl -o /tmp/cmdline-tools.zip https://dl.google.com/android/repository/commandlinetools-linux-11076708_latest.zip \
     && unzip /tmp/cmdline-tools.zip -d /tmp/cmdline-tools \
     && rm /tmp/cmdline-tools.zip \
     && mkdir -p ${ANDROID_SDK_ROOT}/cmdline-tools \
